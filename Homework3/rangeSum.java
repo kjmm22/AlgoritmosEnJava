@@ -11,11 +11,20 @@ public class rangeSum {
 
    public static void main(String[] args) {
 
-		System.out.println("limites: "+args[0]+" "+args[1]);
+		  	int limite1=Integer.parseInt(args[0].toString());
+   	int limite2= Integer.parseInt(args[1].toString());
 
-      
-         System.out.println("numero actual es:" );
-      
+   	int resultado=limite1+1;
+
+   		
+		System.out.println("El rango es:" );
+         System.out.println(" ");
+   		while (resultado<limite2){
+   			
+         System.out.println(+resultado);
+
+         resultado++;
+     }
    }
 
 }
